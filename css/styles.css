@@ -15,6 +15,9 @@
 nav {
   background-color: #0077b6;
 }
+nav a:hover {
+  background-color: #024264;
+}
 
 body {
   background-image: url("../img/fondo1.png");
@@ -30,6 +33,12 @@ section .contacto {
   align-content: center;
 }
 
+.img_generales, #galeria img {
+  width: 100%;
+  height: 250px;
+  box-shadow: 5px 0 10px #333;
+}
+
 .deesparati {
   background-image: url(../img/swirl.png);
 }
@@ -42,12 +51,6 @@ section .contacto {
   /* margin: 0 !important;*/
   padding: 25px;
 }
-#galeria img {
-  width: 100%;
-  height: 250px;
-  box-shadow: 5px 0 10px #333;
-}
-
 .custom-tooltip {
   --bs-tooltip-bg: var(--bs-primary);
 }
