@@ -1,0 +1,93 @@
+
+
+
+
+/*inicio menu*/
+*{
+    margin: 0;
+    padding: 0;
+}
+.cabeceraima
+{
+    background-image: url("../img/Endo3.JPG");
+    padding: 40px;
+    color: azure;
+    font-size: 2.5rem;
+    text-align: left;
+    font-family: 'Inter', sans-serif;
+}
+
+
+nav{
+    background-color:  #0077b6;
+}
+
+body{
+    background-image: url("../img/fondo1.png");
+    font-family: sans-serif;
+}
+
+section{
+    margin-top: 70%;
+    min-height: 60vh;
+}
+
+.card{
+    box-shadow: 5px 0 10px #333;
+}
+
+.wrapper{
+    min-height: 20vh;
+    display: flex;
+    flex-direction: column;
+}
+/*fin menu*/
+
+/*contacto*/
+
+section .contacto{
+    display: flex;
+    align-content: center;
+}
+
+/*imagen del body de contacto*/
+.decontacto{
+    background-image: url(../img/fondo\ contac.png);
+}
+/*fin contacto*/
+
+/*esparati*/
+
+.deesparati{
+    background-image: url(../img/swirl.png);
+}
+    
+#galeria .col-lg4{
+   /* margin: 0 !important;*/
+    padding: 25px;
+    
+    
+}
+
+#galeria img {
+    width: 100%;
+    height: 250px;
+    box-shadow: 5px 0 10px #333; 
+    
+}
+
+.custom-tooltip {
+    --bs-tooltip-bg: var(--bs-primary);
+}
+
+/*ubicacion*/
+
+#ubicacion iframe{
+    width: 100%;
+    height: 250px;
+    
+}
+
+.deubicacion{
+    background-image: url(../img/foggy_birds.png);
+}
