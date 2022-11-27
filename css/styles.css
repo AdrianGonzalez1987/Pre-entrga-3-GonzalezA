@@ -1,93 +1,74 @@
-
-
-
-
-/*inicio menu*/
-*{
-    margin: 0;
-    padding: 0;
-}
-.cabeceraima
-{
-    background-image: url("../img/Endo3.JPG");
-    padding: 40px;
-    color: azure;
-    font-size: 2.5rem;
-    text-align: left;
-    font-family: 'Inter', sans-serif;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-
-nav{
-    background-color:  #0077b6;
+.cabeceraima {
+  background-image: url("../img/Endo3.JPG");
+  padding: 40px;
+  color: azure;
+  font-size: 2.5rem;
+  text-align: left;
+  font-family: "Inter", sans-serif;
 }
 
-body{
-    background-image: url("../img/fondo1.png");
-    font-family: sans-serif;
+nav {
+  background-color: #0077b6;
 }
 
-section{
-    margin-top: 70%;
-    min-height: 60vh;
+body {
+  background-image: url("../img/fondo1.png");
+  font-family: sans-serif;
 }
 
-.card{
-    box-shadow: 5px 0 10px #333;
+section {
+  margin-top: 70%;
+  min-height: 60vh;
+}
+section .contacto {
+  display: flex;
+  align-content: center;
 }
 
-.wrapper{
-    min-height: 20vh;
-    display: flex;
-    flex-direction: column;
-}
-/*fin menu*/
-
-/*contacto*/
-
-section .contacto{
-    display: flex;
-    align-content: center;
+.deesparati {
+  background-image: url(../img/swirl.png);
 }
 
-/*imagen del body de contacto*/
-.decontacto{
-    background-image: url(../img/fondo\ contac.png);
-}
-/*fin contacto*/
-
-/*esparati*/
-
-.deesparati{
-    background-image: url(../img/swirl.png);
-}
-    
-#galeria .col-lg4{
-   /* margin: 0 !important;*/
-    padding: 25px;
-    
-    
+.card {
+  box-shadow: 5px 0 10px #333;
 }
 
+#galeria .col-lg4 {
+  /* margin: 0 !important;*/
+  padding: 25px;
+}
 #galeria img {
-    width: 100%;
-    height: 250px;
-    box-shadow: 5px 0 10px #333; 
-    
+  width: 100%;
+  height: 250px;
+  box-shadow: 5px 0 10px #333;
 }
 
 .custom-tooltip {
-    --bs-tooltip-bg: var(--bs-primary);
+  --bs-tooltip-bg: var(--bs-primary);
 }
 
-/*ubicacion*/
-
-#ubicacion iframe{
-    width: 100%;
-    height: 250px;
-    
+.decontacto {
+  background-image: url(../img/fondo\ contac.png);
 }
 
-.deubicacion{
-    background-image: url(../img/foggy_birds.png);
+#ubicacion iframe {
+  width: 100%;
+  height: 250px;
 }
+
+.deubicacion {
+  background-image: url(../img/foggy_birds.png);
+}
+
+.wrapper {
+  min-height: 20vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,35 @@
+@import "variables";
+@import "img_bodys";
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.cabeceraima
+{
+    background-image: $img-cabecera;
+    padding: 40px;
+    color: $color-letra-cabecera;
+    font-size: 2.5rem;
+    text-align: left;
+    font-family: $fuente-pagina;
+}
+
+
+nav{
+    background-color:  $color-nav;
+}
+
+body{
+    background-image: $img-body-index;
+    font-family: $fuente-pagina-2;
+}
+
+section{
+    margin-top: 70%;
+    min-height: 60vh;
+    .contacto{
+        display: flex;
+        align-content: center;
+    }
+}
